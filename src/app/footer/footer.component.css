@@ -1,0 +1,32 @@
+.footer{
+    background-color: rgb(27, 33, 46);
+    height: 250px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 3%;
+}
+.footer-1{
+    margin-left: 3%;
+}
+.footer-2{
+    margin-right: 3%;
+}
+.favicon{
+    height: 45px;
+    width: 45px;
+    margin-right: 8%;
+}
+.div-favicon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    
+}
+.social-media{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}

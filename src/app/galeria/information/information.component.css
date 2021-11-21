@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+.container-img{
+    width: 60%;
+    margin-left: 2%;
+}
+.title-1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.info{
+    display: flex;
+    padding-bottom: 3rem;
+}
+.incluye{
+    margin-left: 2rem;
+    align-content: center;
+    align-self: center;
+}
+
+.columna {
+    float: left;
+    width: 33%;
+    padding-right: 5px;
+}
+
+.fila{
+    margin-bottom: 3px;
+}
+.fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    border: 2px solid rgba(0,0,0,0.75);
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+<div class="section-galeria">
+    <div class="container-img-box">
+        <div class="row-img">
+            <div class="container-img" *ngFor="let obj_img of imagenes">
+                <ng-imagen [imagenComponentImagen]="obj_img" (click)="onSelect(obj_img)"  data-bs-toggle="modal" data-bs-target="#staticBackdrop"></ng-imagen>
+            </div>
+        </div>
+    </div>
+    <ng-detalle-imagen [selectedImagenDetalle]="selectedImagen"></ng-detalle-imagen>
+</div>
+
+

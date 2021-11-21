@@ -1,0 +1,56 @@
+
+img{
+    /* permite crear una sombra en la imagen*/
+    /* -webkit- se utiliza para navegadores basados en chromium*/
+    -webkit-box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.75);
+    /* -moz- se utiliza para navegadores basados en mozilla*/
+    -moz-box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.75);
+    /* comando estandar para dar sombra a un elemento*/
+    box-shadow: 0px 1px 6px 1px rgba(0,0,0.75);
+    /* brinda un espacio de 20px en la parte inferior de las imagenes*/
+    margin-bottom: 20px;
+    /* Redondea las esquinas de los element*/
+    border-radius: 15px;
+}
+
+/* Hover permite realizar algun cambio en el estilo cuando uno se pone encima del objeto*/
+img:hover{
+    /*en este caso cambia el color de la imagen a gris*/
+    filter: gray;
+    /* -webkit- se utiliza para navegadores basados en chromium*/
+    -webkit-filter:grayscale(1);
+}
+
+.section-galeria{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-img-box{
+    margin:0;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-img{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width: 320px) and (max-width:575px){
+    .container-img-box{
+        width: 70%;
+    }
+    .row-img{
+        width: 80%;
+    }
+}
+@media (min-width: 575px) and (max-width:991px){
+    .main-menu{
+        height: 390px;
+    }
+}
